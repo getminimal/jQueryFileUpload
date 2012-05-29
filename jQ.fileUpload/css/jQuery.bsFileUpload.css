@@ -1,0 +1,120 @@
+.uplContainer {
+	width: 820px;
+	min-height: 200px;
+	max-height: 600px;
+	overflow-y: auto;
+	border: dashed 1px black;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.uplContainer ul {
+	margin: 10px 0 0 10px;
+	padding: 0;
+	list-style-type: none;
+}
+
+.uplContainer ul li {
+	float: left;
+	margin: 0 10px 10px 0;
+
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 4px;
+	border: solid 1px rgba(0, 0, 0, 0.5);
+
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+	   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+			box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+			border-radius: 3px;
+}
+
+.uplContainer ul li .uplPreviewContainer {
+	display: block;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+			border-radius: 3px;
+}
+
+.uplContainer ul li .uplPreviewContainerInner {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.uplContainer ul li .uplPreviewIcon {
+	background-size: auto;
+}
+
+.uplContainer ul li .uplProgressBarBack {
+	margin: 0 10px 10px 10px;
+	height: 20px;
+	overflow: hidden;
+
+	background: rgb(200,200,200); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(200,200,200,1) 0%, rgba(250,250,250,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(200,200,200,1)), color-stop(100%,rgba(250,250,250,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(200,200,200,1) 0%,rgba(250,250,250,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(200,200,200,1) 0%,rgba(250,250,250,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(200,200,200,1) 0%,rgba(250,250,250,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(200,200,200,1) 0%,rgba(250,250,250,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c8c8c8', endColorstr='#fafafa',GradientType=0 ); /* IE6-9 */
+
+	border: solid 1px rgba(0, 0, 0, 0.8);
+
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		 -o-box-sizing: border-box;
+			box-sizing: border-box;
+
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+			border-radius: 3px;
+
+	-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+	   -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+			box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.uplContainer ul li .uplProgressBarFront {
+	height: 20px;
+	width: 1px;
+	padding: 0 3px 0 0;
+
+	overflow: hidden;
+	font-size: 11px;
+	line-height: 18px;
+	color: white;
+	text-align: right;
+
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		 -o-box-sizing: border-box;
+			box-sizing: border-box;
+
+	background: rgb(109,179,242); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(109,179,242,1) 0%, rgba(84,163,238,1) 50%, rgba(54,144,240,1) 51%, rgba(30,105,222,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(109,179,242,1)), color-stop(50%,rgba(84,163,238,1)), color-stop(51%,rgba(54,144,240,1)), color-stop(100%,rgba(30,105,222,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=0 ); /* IE6-9 */
+}
+
+.clearfix {
+	*zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: "";
+}
+.clearfix:after {
+	clear: both;
+}
